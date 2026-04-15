@@ -1,0 +1,75 @@
+1️⃣ Step 1 — Node.js Install
+
+✅
+node -v
+npm -v
+
+2️⃣ Step 2 — Project mein package.json banayein
+
+✅
+npm init -y
+
+3️⃣ Step 3 — PurgeCSS CLI Install Karen
+
+✅
+npm install -D purgecss
+
+4️⃣ Step 4 — Config File Banayein
+Root mein purgecss.config.cjs naam ki file banayein:
+
+✅
+// purgecss.config.cjs
+module.exports = {
+  // these files will be scanned for used CSS classes
+  content: [
+    "./index.php",
+    "./assets/js/custom.js"
+    //'./assets/js/**/*.js',  // custom.js and other js files in assets/js/ folder
+    // if we have multiple .php, .html files add here:
+    // "./**/*.php",
+    // "./**/*.html",
+  ],
+
+  // this css will be processed by PurgeCSS to remove unused classes from it
+  css: ["./assets/css/custom.css"],
+
+  // Output folder
+  output: "./assets/css/",
+
+  // Bootstrap aur JS se dynamically add hone wali classes ko bachana
+  safelist: {
+    standard: [
+      /^carousel/,    // Bootstrap carousel classes
+      /^swiper/,      // Agar swiper slider use hai
+      /^slick/,       // Agar slick slider use hai
+      /^modal/,       // Bootstrap modals
+      /^dropdown/,    // Bootstrap dropdowns
+      /^collapse/,    // Bootstrap collapse
+      /^collapsing$/,
+      /^tooltip/,
+      /^popover/,
+      /^offcanvas/,
+      /^show$/,
+      /^fade$/,
+      /^active$/,
+      /^disabled$/,
+      /^open$/,
+    ],
+    deep: [
+      /^data-/,
+    ]
+  }
+};
+
+5️⃣ Step 5 — package.json mein Script Add Karen
+package.json mein scripts section mein yeh add karen:
+
+✅
+"scripts": {
+"purge": "purgecss --css assets/css/custom.css --content index.php assets/js/custom.js --output assets/css/"
+}
+
+6️⃣ Step 6 — Run Karen
+
+✅
+npm run purge
