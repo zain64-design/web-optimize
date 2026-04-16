@@ -6,9 +6,15 @@ $page = 'home';
 <main>
 
     <!-- Banner Main Section Start Here -->
-    <section class="banner-main-sec banner-publishing-sec publishing_new_banner">
+    <section class="banner-main-sec">
+        <picture class="bg-img">
+            <source srcset="assets/images/banner-publishing-bg.webp" type="image/webp">
+            <img src="assets/images/banner-publishing-bg.jpg" class="banner-img" alt="Banner" loading="eager"
+                fetchpriority="high">
+        </picture>
         <div class="container">
-            <div class="row align-items-center justify-content-between gap-3 gap-sm-3 gap-md-3 gap-lg-0 gap-xl-0 gap-xxl-0">
+            <div
+                class="row align-items-center justify-content-between gap-3 gap-sm-3 gap-md-3 gap-lg-0 gap-xl-0 gap-xxl-0">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="banner-main-content" data-aos="fade-right" data-aos-duration="1500">
                         <h1 class="heading-one">Your Voice Matters. Let’s Get It on the Page.</h1>
@@ -41,8 +47,8 @@ $page = 'home';
                         <p>We believe in total transparency. You’ll be involved at every stage with clear updates and
                             approval checks, ensuring your finished book is exactly how you imagined it, or better.</p>
                         <div class="step-works-head-img">
-                            <img loading="lazy" src="assets/images/book-publishing/smooth.webp" alt="Process Image Editing"
-                                class="img-fluid box2">
+                            <img loading="lazy" src="assets/images/book-publishing/smooth.webp"
+                                alt="Process Image Editing" class="img-fluid box2">
                         </div>
                     </div>
                 </div>
@@ -75,8 +81,8 @@ $page = 'home';
                                             <h4 class="heading-five">Polish & Perfect</h4>
                                         </div>
                                         <div class="work-box-head-img">
-                                            <img loading="lazy" src="assets/images/icons-imgs/editing-white.webp" alt="Editing"
-                                                class="img-fluid">
+                                            <img loading="lazy" src="assets/images/icons-imgs/editing-white.webp"
+                                                alt="Editing" class="img-fluid">
                                         </div>
                                     </div>
                                     <p>We carefully proofread and edit your work, refining the flow while making sure it
@@ -92,8 +98,8 @@ $page = 'home';
                                             <h4 class="heading-five">Design & Layout</h4>
                                         </div>
                                         <div class="work-box-head-img">
-                                            <img loading="lazy" src="assets/images/icons-imgs/formatting-white.webp" alt="Formatting"
-                                                class="img-fluid">
+                                            <img loading="lazy" src="assets/images/icons-imgs/formatting-white.webp"
+                                                alt="Formatting" class="img-fluid">
                                         </div>
                                     </div>
                                     <p>Our experts handle everything visual, including interior formatting, custom
@@ -142,8 +148,8 @@ $page = 'home';
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="cta-banner-img" data-aos="fade-left" data-aos-duration="1500">
-                        <img loading="lazy" src="assets/images/book-publishing/ipad.webp" alt="CTA Banner Publishing Image"
-                            class="img-fluid box2">
+                        <img loading="lazy" src="assets/images/book-publishing/ipad.webp"
+                            alt="CTA Banner Publishing Image" class="img-fluid box2">
                     </div>
                 </div>
             </div>
@@ -200,8 +206,8 @@ $page = 'home';
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <div class="unlock-story-img" data-aos="fade-left" data-aos-duration="1500">
-                            <img loading="lazy" src="assets/images/book-publishing/publishing-world.webp" alt="Unlock Story Publishing"
-                                class="img-fluid box2">
+                            <img loading="lazy" src="assets/images/book-publishing/publishing-world.webp"
+                                alt="Unlock Story Publishing" class="img-fluid box2">
                         </div>
                     </div>
                 </div>
@@ -226,8 +232,8 @@ $page = 'home';
                         data-aos-duration="2000">
                         <h4 class="heading-five">We Speak Every Story </h4>
                         <div class="offer-box-img">
-                            <img loading="lazy" src="assets/images/icons-imgs/line-editing-white.webp" alt="Line Editing"
-                                class="img-fluid">
+                            <img loading="lazy" src="assets/images/icons-imgs/line-editing-white.webp"
+                                alt="Line Editing" class="img-fluid">
                         </div>
                         <p>Your project might be a sprawling space odyssey or a secret family recipe book, either way,
                             our team has the range to handle it. No matter the genre, we know exactly how to bring your
@@ -240,7 +246,8 @@ $page = 'home';
                         data-aos-duration="2000">
                         <h4 class="heading-five">Your Voice, Only Better </h4>
                         <div class="offer-box-img">
-                            <img loading="lazy" src="assets/images/icons-imgs/text.webp" alt="Text Icon" class="img-fluid">
+                            <img loading="lazy" src="assets/images/icons-imgs/text.webp" alt="Text Icon"
+                                class="img-fluid">
                         </div>
                         <p>We aren't here to change your story; we’re here to help you tell it. We match your personal
                             style so that when people read your book, it sounds 100% like you, just polished to
@@ -253,8 +260,8 @@ $page = 'home';
                         data-aos-duration="2000">
                         <h4 class="heading-five">Zero Stress, All Progress </h4>
                         <div class="offer-box-img">
-                            <img loading="lazy" src="assets/images/icons-imgs/structural-editing-white.webp" alt="Structural Editing"
-                                class="img-fluid">
+                            <img loading="lazy" src="assets/images/icons-imgs/structural-editing-white.webp"
+                                alt="Structural Editing" class="img-fluid">
                         </div>
                         <p>We handle the confusing technical stuff and keep you in the loop every step of the way,
                             making the journey from "rough draft" to "finished book" actually fun.</p>
@@ -266,8 +273,8 @@ $page = 'home';
                         data-aos-duration="2000">
                         <h4 class="heading-five">Covers You’ll Want to Brag About </h4>
                         <div class="offer-box-img">
-                            <img loading="lazy" src="assets/images/icons-imgs/copy-editing-white.webp" alt="Copy Editing"
-                                class="img-fluid">
+                            <img loading="lazy" src="assets/images/icons-imgs/copy-editing-white.webp"
+                                alt="Copy Editing" class="img-fluid">
                         </div>
                         <p>People do judge books by their covers, so we make sure yours is a showstopper. Our designs
                             tell your story’s vibe at a single glance.</p>
@@ -318,18 +325,19 @@ $page = 'home';
                             <div class="feedback-slider-box" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="feedback-box-head">
                                     <div class="feedback-slider-thumb">
-                                        <img loading="lazy" src="assets/images/testimonials/tt1.webp" alt="Thumb Girl" class="img-fluid">
+                                        <img loading="lazy" src="assets/images/testimonials/tt1.webp" alt="Thumb Girl"
+                                            class="img-fluid">
                                     </div>
                                     <div class="feedback-slider-text">
                                         <h4 class="heading-five">Marko Kloos</h4>
                                         <p>Echoes of Silence</p>
                                         <div class="feedback-slider-ratings">
                                             <div class="ratings-stars-img">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
                                             </div>
                                             <span>4.6/5.0</span>
                                         </div>
@@ -343,18 +351,19 @@ $page = 'home';
                             <div class="feedback-slider-box" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="feedback-box-head">
                                     <div class="feedback-slider-thumb">
-                                        <img loading="lazy" src="assets/images/testimonials/tt2.webp" alt="Thumb Boy" class="img-fluid">
+                                        <img loading="lazy" src="assets/images/testimonials/tt2.webp" alt="Thumb Boy"
+                                            class="img-fluid">
                                     </div>
                                     <div class="feedback-slider-text">
                                         <h4 class="heading-five">Sylvia Melena</h4>
                                         <p>Lead Magnet Formula</p>
                                         <div class="feedback-slider-ratings">
                                             <div class="ratings-stars-img">
-<i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
                                             </div>
                                             <span>4.6/5.0</span>
                                         </div>
@@ -369,18 +378,19 @@ $page = 'home';
                             <div class="feedback-slider-box" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="feedback-box-head">
                                     <div class="feedback-slider-thumb">
-                                        <img loading="lazy" src="assets/images/testimonials/tt3.webp" alt="Thumb Boy" class="img-fluid">
+                                        <img loading="lazy" src="assets/images/testimonials/tt3.webp" alt="Thumb Boy"
+                                            class="img-fluid">
                                     </div>
                                     <div class="feedback-slider-text">
                                         <h4 class="heading-five">Aleina Mackey</h4>
                                         <p>Child 9: A Memoir of Breaking Free</p>
                                         <div class="feedback-slider-ratings">
                                             <div class="ratings-stars-img">
-<i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
                                             </div>
                                             <span>4.6/5.0</span>
                                         </div>
@@ -396,18 +406,19 @@ $page = 'home';
                             <div class="feedback-slider-box" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="feedback-box-head">
                                     <div class="feedback-slider-thumb">
-                                        <img loading="lazy" src="assets/images/testimonials/tt4.webp" alt="Thumb Boy" class="img-fluid">
+                                        <img loading="lazy" src="assets/images/testimonials/tt4.webp" alt="Thumb Boy"
+                                            class="img-fluid">
                                     </div>
                                     <div class="feedback-slider-text">
                                         <h4 class="heading-five">Nikolas Pleiadi</h4>
                                         <p>In Powder Blue</p>
                                         <div class="feedback-slider-ratings">
                                             <div class="ratings-stars-img">
-<i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
                                             </div>
                                             <span>4.6/5.0</span>
                                         </div>
@@ -421,18 +432,19 @@ $page = 'home';
                             <div class="feedback-slider-box" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="feedback-box-head">
                                     <div class="feedback-slider-thumb">
-                                        <img loading="lazy" src="assets/images/testimonials/tt5.webp" alt="Thumb Boy" class="img-fluid">
+                                        <img loading="lazy" src="assets/images/testimonials/tt5.webp" alt="Thumb Boy"
+                                            class="img-fluid">
                                     </div>
                                     <div class="feedback-slider-text">
                                         <h4 class="heading-five">Astrid Vail</h4>
                                         <p>Claiming Jafar: Fairytales After Dark</p>
                                         <div class="feedback-slider-ratings">
                                             <div class="ratings-stars-img">
-<i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
                                             </div>
                                             <span>4.6/5.0</span>
                                         </div>
@@ -448,7 +460,8 @@ $page = 'home';
                             <div class="feedback-slider-box" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="feedback-box-head">
                                     <div class="feedback-slider-thumb">
-                                        <img loading="lazy" src="assets/images/testimonials/tt6.webp" alt="Thumb Boy" class="img-fluid">
+                                        <img loading="lazy" src="assets/images/testimonials/tt6.webp" alt="Thumb Boy"
+                                            class="img-fluid">
                                     </div>
                                     <div class="feedback-slider-text">
                                         <h4 class="heading-five">Jack Dane</h4>
@@ -456,10 +469,10 @@ $page = 'home';
                                         <div class="feedback-slider-ratings">
                                             <div class="ratings-stars-img">
                                                 <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
                                             </div>
                                             <span>4.6/5.0</span>
                                         </div>
@@ -474,18 +487,18 @@ $page = 'home';
                         </div>
                         <div class="customer-feedback-reviews" data-aos="fade-up-right" data-aos-duration="1500">
                             <ul class="feedback-reviews-img">
-                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-boy-02.webp" alt="Thumb Boy Small"
-                                        class="img-fluid"></li>
-                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-boy-03.webp" alt="Thumb Boy Small"
-                                        class="img-fluid"></li>
-                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-girl-01.webp" alt="Thumb Girl Small"
-                                        class="img-fluid"></li>
-                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-girl-02.webp" alt="Thumb Girl Small"
-                                        class="img-fluid"></li>
-                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-girl-03.webp" alt="Thumb Girl Small"
-                                        class="img-fluid"></li>
-                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-boy-01.webp" alt="Thumb Boy Small"
-                                        class="img-fluid"></li>
+                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-boy-02.webp"
+                                        alt="Thumb Boy Small" class="img-fluid"></li>
+                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-boy-03.webp"
+                                        alt="Thumb Boy Small" class="img-fluid"></li>
+                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-girl-01.webp"
+                                        alt="Thumb Girl Small" class="img-fluid"></li>
+                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-girl-02.webp"
+                                        alt="Thumb Girl Small" class="img-fluid"></li>
+                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-girl-03.webp"
+                                        alt="Thumb Girl Small" class="img-fluid"></li>
+                                <li><img loading="lazy" src="assets/images/reviews-thumb/thumb-boy-01.webp"
+                                        alt="Thumb Boy Small" class="img-fluid"></li>
                             </ul>
                             <span>400+ Books Published</span>
                         </div>
@@ -493,12 +506,18 @@ $page = 'home';
                 </div>
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="customer-feedback-images" data-aos="fade-left" data-aos-duration="1000">
-                        <img loading="lazy" src="assets/images/testimonials/t1.webp" alt="Customer feedback Img" class="img-fluid box2">
-                        <img loading="lazy" src="assets/images/testimonials/t2.webp" alt="Customer feedback Img" class="img-fluid box2">
-                        <img loading="lazy" src="assets/images/testimonials/t3.webp" alt="Customer feedback Img" class="img-fluid box2">
-                        <img loading="lazy" src="assets/images/testimonials/t4.webp" alt="Customer feedback Img" class="img-fluid box2">
-                        <img loading="lazy" src="assets/images/testimonials/t5.webp" alt="Customer feedback Img" class="img-fluid box2">
-                        <img loading="lazy" src="assets/images/testimonials/t6.webp" alt="Customer feedback Img" class="img-fluid box2">
+                        <img loading="lazy" src="assets/images/testimonials/t1.webp" alt="Customer feedback Img"
+                            class="img-fluid box2">
+                        <img loading="lazy" src="assets/images/testimonials/t2.webp" alt="Customer feedback Img"
+                            class="img-fluid box2">
+                        <img loading="lazy" src="assets/images/testimonials/t3.webp" alt="Customer feedback Img"
+                            class="img-fluid box2">
+                        <img loading="lazy" src="assets/images/testimonials/t4.webp" alt="Customer feedback Img"
+                            class="img-fluid box2">
+                        <img loading="lazy" src="assets/images/testimonials/t5.webp" alt="Customer feedback Img"
+                            class="img-fluid box2">
+                        <img loading="lazy" src="assets/images/testimonials/t6.webp" alt="Customer feedback Img"
+                            class="img-fluid box2">
                     </div>
                 </div>
             </div>

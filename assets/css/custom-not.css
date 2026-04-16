@@ -20,16 +20,6 @@ p {
 }
 /* purgecss end ignore */
 
-.banner-main-sec::before,
-.cta-banner-wrap::before {
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: -1;
-    content: '';
-    bottom: 0
-}
-
 a,
 body,
 button,
@@ -265,17 +255,28 @@ header nav.navbar .website-main-buttons a.call-btn i {
 }
 
 .banner-main-sec {
-    background-image: url(../../assets/images/banner-main-bg.webp);
     padding: 150px 0 50px;
+    min-height: 100dvh;
     position: relative;
     z-index: 1;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%
+    background: #000;
+}
+.banner-main-sec .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.banner-main-sec .bg-img .banner-img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
 }
 
 .banner-main-content .heading-one {
-    color: #10476e;
+    color: #fff;
     margin: 0 0 20px
 }
 
@@ -286,7 +287,7 @@ header nav.navbar .website-main-buttons a.call-btn i {
 .portfolio-notable-wrap .porfolio-notable-head p,
 .portfolio-publish-head p,
 .reviews-trustpilot-head p {
-    color: #10476e
+    color: #fff;
 }
 
 .banner-main-content .website-main-buttons {
@@ -352,22 +353,6 @@ ul.review-box-img li img {
     border-radius: 100%
 }
 
-.banner-main-sec.banner-editing-sec::before,
-.banner-main-sec.banner-marketing-sec::before,
-.banner-main-sec.banner-publishing-sec::before {
-    background: #10476e;
-    opacity: .1
-}
-
-.banner-main-sec.banner-editing-sec .banner-brands span,
-.banner-main-sec.banner-editing-sec .banner-main-content .heading-one,
-.banner-main-sec.banner-editing-sec .banner-main-content p,
-.banner-main-sec.banner-marketing-sec .banner-brands span,
-.banner-main-sec.banner-marketing-sec .banner-main-content .heading-one,
-.banner-main-sec.banner-marketing-sec .banner-main-content p,
-.banner-main-sec.banner-publishing-sec .banner-brands span,
-.banner-main-sec.banner-publishing-sec .banner-main-content .heading-one,
-.banner-main-sec.banner-publishing-sec .banner-main-content p,
 .contact-banner-sec .banner-main-content .heading-one,
 .contact-banner-sec .banner-main-content p,
 .contact-inner-head p,
@@ -392,9 +377,6 @@ ul.review-box-img li img {
     display: none !important;
 }
 /* purgecss end ignore */
-section.banner-main-sec.banner-publishing-sec {
-    background-image: url(../../assets/images/banner-publishing-bg.webp)
-}
 
 .banner-inner-published-form {
     background: #fff;

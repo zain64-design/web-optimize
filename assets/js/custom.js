@@ -188,7 +188,7 @@
                     feedbackObserver.unobserve(entry.target);
                 }
             });
-        }, { rootMargin: '200px',threshold: 0 });
+        }, { rootMargin: '800px',threshold: 0.1 });
         feedbackObserver.observe(feedbackSlider);
     }
 
