@@ -24,7 +24,7 @@
     <noscript>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     </noscript>
-    <link rel="stylesheet" href="assets/css/custom-not.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
     <link rel="preload" as="style" href="assets/fontawesome/css/all.min.css"
         onload="this.onload=null;this.rel='stylesheet'" />
     <noscript>
@@ -129,7 +129,7 @@
                         <!-- Banner Publishing Form Include Here -->
                         <div class="banner-inner-published-form" data-aos="fade-left" data-aos-duration="1500">
                             <h4>Start Your Publishing Journey!</h4>
-                                <p>Signup Now! <span>Save 35%</span> on Editing & Publishing Packages</p>
+                                <p>Signup Now! and Get <span>35% OFF</span> Today!</p>
                             <form action="https://leads.infinityprojectmanager.com/brand/goodspeedpublishing/lead"
                                 method="GET" class="myForm">
                                 <input type="hidden" name="city" class="city">
@@ -197,86 +197,6 @@
                                                 <option value="Cookbook">Cookbook</option>
                                                 <option value="Other">Other</option>
                                             </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div class="form-group-select">
-                                            <div class="dropdown ct-select" name="services">
-                                                <button class="btn btn-secondary dropdown-toggle" type="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false"
-                                                    data-bs-auto-close="outside">
-                                                    What services are you looking for?
-                                                </button>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox"
-                                                                name="self-publishing" value="Self Publishing"
-                                                                id="selfPublishing">
-                                                            <label class="form-check-label" for="selfPublishing">
-                                                                Self Publishing
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox"
-                                                                name="editing" value="Editing" id="editing">
-                                                            <label class="form-check-label" for="editing">
-                                                                Editing
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox"
-                                                                name="cover-design" value="Cover Design"
-                                                                id="coverDesign">
-                                                            <label class="form-check-label" for="coverDesign">
-                                                                Cover Design
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox"
-                                                                name="printing" value="Printing" id="printing">
-                                                            <label class="form-check-label" for="printing">
-                                                                Printing
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox"
-                                                                name="interior-formatting" value="Interior Formatting"
-                                                                id="interiorFormatting">
-                                                            <label class="form-check-label" for="interiorFormatting">
-                                                                Interior Formatting
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox"
-                                                                name="illustration" value="Illustration"
-                                                                id="illustration">
-                                                            <label class="form-check-label" for="illustration">
-                                                                Illustration
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox"
-                                                                name="marketing" value="Marketing" id="marketing">
-                                                            <label class="form-check-label" for="marketing">
-                                                                Marketing
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">

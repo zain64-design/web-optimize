@@ -90,7 +90,7 @@
                                             <div class="website-main-buttons">
                                                 <a class="popup-btn" data-bs-toggle="modal"
                                                     data-bs-target="#staticBackdrop">Let's Get Started</a>
-                                                <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live
+                                                <button type="button" class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live
                                                     Chat!</button>
                                             </div>
                                         </div>

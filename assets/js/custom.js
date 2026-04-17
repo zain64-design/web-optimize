@@ -455,12 +455,64 @@
     // ==========================================
     // Zendesk - 5 second delay
     // ==========================================
+    // ✅ State globally track karo
+    var widgetOpen = false;
+
     setTimeout(function() {
         var s = document.createElement('script');
         s.id = 'ze-snippet';
         s.src = 'https://static.zdassets.com/ekr/snippet.js?key=402fac6a-524a-4d4b-834f-7ee0784ebe99';
         s.async = true;
         document.head.appendChild(s);
+
+        s.onload = function() {
+
+            // ✅ Auto open after load
+            zE('webWidget', 'open');
+            widgetOpen = true;
+
+            var userMinimized = false;
+            var keyboardListenerActive = false;
+
+            // ✅ Minimize/close track karo
+            zE('webWidget:on', 'close', function() {
+                userMinimized = true;
+                widgetOpen = false;
+
+                // ✅ Keyboard type pe reopen
+                if (!keyboardListenerActive) {
+                    keyboardListenerActive = true;
+
+                    document.addEventListener('keydown', function handleKeyPress(e) {
+                        var isPrintable = e.key.length === 1 && !e.ctrlKey && !e.altKey && !e.metaKey;
+
+                        if (isPrintable && userMinimized) {
+                            zE('webWidget', 'open');
+                            userMinimized = false;
+                            widgetOpen = true;
+                            document.removeEventListener('keydown', handleKeyPress);
+                            keyboardListenerActive = false;
+                        }
+                    });
+                }
+            });
+
+            // ✅ Open hone par flag reset
+            zE('webWidget:on', 'open', function() {
+                userMinimized = false;
+                widgetOpen = true;
+            });
+
+            // ✅ New agent message pe reopen
+            zE('webWidget:on', 'chat:unreadMessages', function(number) {
+                if (userMinimized && number > 0) {
+                    zE('webWidget', 'open');
+                    userMinimized = false;
+                    widgetOpen = true;
+                }
+            });
+        };
+
     }, 5000);
 
     // ==========================================
@@ -486,26 +538,26 @@
     // ==========================================
     // setButtonURL function
     // ==========================================
-    function setButtonURL(){
-        if (typeof $zopim !== 'undefined' && $zopim.livechat) {
-            $zopim.livechat.window.toggle();
+    window.setButtonURL = function() {
+        if (typeof zE === 'undefined') return;
+
+        if (widgetOpen) {
+            zE('webWidget', 'close');
+            widgetOpen = false;
+        } else {
+            zE('webWidget', 'open');
+            widgetOpen = true;
         }
-    }
-    
-    window.onload = function(){
-        setTimeout(function(){
-            setButtonURL();
-        }, 7000);
     };
 
     // ==========================================
-    // toggleChat function
+    // ✅ Chat.toggle() — button ke liye
     // ==========================================
-    function toggleChat() {
-        if (typeof $zopim !== 'undefined' && $zopim.livechat) {
-            $zopim.livechat.window.show();
+    window.Chat = {
+        toggle: function() {
+            window.setButtonURL();
         }
-    }
+    };
 
     // ==========================================
     // getUserIP function (with caching)
