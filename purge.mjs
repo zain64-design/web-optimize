@@ -7,8 +7,8 @@ const result = await new PurgeCSS().purge({
     './assets/js/custom.js'
   ],
   css: [
-    // './assets/css/custom.css',
-    'assets/css/bootstrap.min.css',
+    './assets/css/custom.css',
+    // 'assets/css/bootstrap.min.css',
     // './assets/fontawesome/css/all.min.css'
   ],
   safelist: {
