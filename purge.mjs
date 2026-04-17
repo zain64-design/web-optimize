@@ -7,15 +7,16 @@ const result = await new PurgeCSS().purge({
     './assets/js/custom.js'
   ],
   css: [
-    './assets/css/custom.css',
-    './assets/fontawesome/css/all.min.css'
+    // './assets/css/custom.css',
+    'assets/css/bootstrap.min.css',
+    // './assets/fontawesome/css/all.min.css'
   ],
   safelist: {
     standard: [
       // Bootstrap
       /^show$/, /^collapsing$/, /^modal/, /^dropdown/,/^collapse/,
-      /^tooltip/, /^popover/, /^carousel/, /^offcanvas/,
-      /^fade$/, /^active$/, /^disabled$/, /^open$/,
+      /^tooltip/, /^popover/, /^carousel/, /^offcanvas/,/^nav/,
+      /^tab/, /^fade$/, /^active$/, /^disabled$/, /^open$/,/^accordion/,
       // Slick Slider
       /^slick/,
       // Font Awesome

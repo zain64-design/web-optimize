@@ -1,6 +1,6 @@
 <div class="banner-inner-published-form" data-aos="fade-left" data-aos-duration="1500">
     <h4>Start Your Publishing Journey!</h4>
-<p class="text-center">Signup Now! and Get <span>35% OFF</span> Today!</p>
+<p>Signup Now! and Get <span>35% OFF</span> Today!</p>
     <form action="https://leads.infinityprojectmanager.com/brand/goodspeedpublishing/lead" method="GET" class="myForm">
         <input type="hidden" name="city" class="city">
         <input type="hidden" name="country" class="country">

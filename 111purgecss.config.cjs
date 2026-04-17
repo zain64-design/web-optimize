@@ -34,6 +34,9 @@ module.exports = {
       /^active$/,
       /^disabled$/,
       /^open$/,
+      /^accordion/,
+      /^nav/,
+      /^tab/,
     ],
     deep: [
       /^data-/,

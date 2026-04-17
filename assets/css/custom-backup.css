@@ -273,6 +273,7 @@ header nav.navbar .website-main-buttons a.call-btn i {
     object-fit: cover;
     object-position: center;
     height: 100%;
+    width: 100%;
 }
 
 .banner-main-content .heading-one {

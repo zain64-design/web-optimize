@@ -11,38 +11,34 @@
     <?php  include 'includes/sections/variables-file.php';?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="image" href="assets/images/banner-publishing-bg.webp">
-    <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-        onload="this.onload=null;this.rel='stylesheet'">
+        <!-- banner preload -->
+    <link rel="preload" as="image" href="assets/images/banner-publishing-bg.webp" fetchpriority="high">
+        <!-- GOOGLE FONTS DEFERRED CSS -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"/>
     <noscript>
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"/>
     </noscript>
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" as="style"
-        onload="this.onload=null;this.rel='stylesheet'">
+    <!-- BOOTSTRAP DEFERRED CSS -->
+    <link rel="preload" href="assets/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
     <noscript>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     </noscript>
     <link rel="stylesheet" href="assets/css/custom.css" />
+    <!-- FONTAWESOME DEFERRED CSS: -->
     <link rel="preload" as="style" href="assets/fontawesome/css/all.min.css"
         onload="this.onload=null;this.rel='stylesheet'" />
     <noscript>
         <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
     </noscript>
-
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <!-- OTHER DEFERRED CSS: -->
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" as="style"
-        onload="this.onload=null;this.rel='stylesheet'">
+        onload="this.onload=null;this.rel='stylesheet'"/>
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" onload="this.onload=null;this.rel='stylesheet'"/>
     <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
+            href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css"/>
     </noscript>
     <!-- Google Tag Manager -->
     <script>
@@ -1508,21 +1504,11 @@
     </div>
     <!-- PopUp Modal End Here -->
     <!-- PopUp Modal End Here -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js" defer></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        defer></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js" defer></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer>
-    </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.4.1/vanilla-tilt.min.js"
-        defer></script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js" defer>
-    </script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js" defer></script>
-    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js" defer></script>
     <script type="text/javascript" src="assets/js/custom.min.js" defer></script>
 </body>
 

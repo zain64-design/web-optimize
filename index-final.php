@@ -9,7 +9,7 @@ $page = 'home';
     <section class="banner-main-sec">
         <picture class="bg-img">
             <source srcset="assets/images/banner-publishing-bg.webp" type="image/webp">
-            <img src="assets/images/banner-publishing-bg.jpg" class="banner-img" alt="Banner" loading="eager"
+            <img src="assets/images/banner-publishing-bg.jpg" class="banner-img img-fluid" alt="Banner" loading="eager"
                 fetchpriority="high">
         </picture>
         <div class="container">
