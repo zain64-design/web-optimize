@@ -451,11 +451,13 @@ ul.review-box-img li img {
     margin: 0
 }
 
+/* purgecss start ignore */
 label.error-msg {
     color: red;
     font-size: 12px;
-    font-weight: 500
+    font-weight: 500;
 }
+/* purgecss end ignore */
 
 .banner-inner-published-form .form-group .form-select {
     font-family: Poppins, sans-serif;

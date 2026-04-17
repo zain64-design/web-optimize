@@ -8,7 +8,7 @@ const result = await new PurgeCSS().purge({
   ],
   css: [
     './assets/css/custom.css',
-    './assets/css/all.min.css'
+    './assets/fontawesome/css/all.min.css'
   ],
   safelist: {
     standard: [
@@ -27,8 +27,14 @@ const result = await new PurgeCSS().purge({
   }
 });
 
+// result.forEach(({ css, file }) => {
+//   const filename = file.split('/').pop();
+//   writeFileSync(`./assets/css/${filename}`, css);
+//   console.log(`✅ Purged: ${filename}`);
+// });
+
 result.forEach(({ css, file }) => {
-  const filename = file.split('/').pop();
-  writeFileSync(`./assets/css/${filename}`, css);
-  console.log(`✅ Purged: ${filename}`);
+  // original path pe hi save karo
+  writeFileSync(file, css);
+  console.log(`✅ Purged: ${file}`);
 });

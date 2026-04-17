@@ -67,6 +67,8 @@ package.json mein scripts section mein yeh add karen:
 ✅
 "scripts": {
 "purge": "purgecss --css assets/css/custom.css assets/fontawesome/css/all.min.css --content index.php assets/js/custom.js --output assets/css/"
+if using purge.mjs
+"purge": "node purge.mjs"
 }
 
 6️⃣ Step 6 — Run Karen
