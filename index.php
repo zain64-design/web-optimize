@@ -17,10 +17,8 @@ $page = 'home';
                 class="row align-items-center justify-content-between gap-3 gap-sm-3 gap-md-3 gap-lg-0 gap-xl-0 gap-xxl-0">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="banner-main-content" data-aos="fade-right" data-aos-duration="1500">
-                        <h1 class="heading-one">Your Voice Matters. Let’s Get It on the Page.</h1>
-                        <p>Limited time shouldn't mean your ideas go unheard. We help you transform your notes and
-                            thoughts into a professional book, making sure your story finally gets published for
-                            everyone to read.</p>
+                        <h1 class="heading-one">Your voice matters. Let’s ink it down</h1>
+                        <p>Your story matters and limited time shouldn’t mean your ideas go unheard. As professional book publishers, we help you transform your notes and thoughts into a refined, impactful book, ensuring your story is written, polished, and published for the world to read.</p>
                         <div class="website-main-buttons">
                             <a href="#calendary-sec" class="popup-btn">Book A Discovery Call</a>
                             <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live Chat!</button>
@@ -44,8 +42,7 @@ $page = 'home';
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
                     <div class="step-works-head" data-aos="fade-right" data-aos-duration="1500">
                         <h3 class="heading-four">Our Simple Publishing Process</h3>
-                        <p>We believe in total transparency. You’ll be involved at every stage with clear updates and
-                            approval checks, ensuring your finished book is exactly how you imagined it, or better.</p>
+                        <p>We as Book Publishers believe in total transparency. You are involved at every stage with clear updates and approval checks, ensuring your finished book is exactly how you imagined it, or better.</p>
                         <div class="step-works-head-img">
                             <img loading="lazy" src="assets/images/book-publishing/smooth.webp"
                                 alt="Process Image Editing" class="img-fluid box2">
@@ -137,9 +134,8 @@ $page = 'home';
             <div class="row align-items-center">
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="cta-banner-content" data-aos="fade-right" data-aos-duration="1500">
-                        <h3 class="heading-three">We’re Here to Help You Reach the Finish Line</h3>
-                        <p>Our talented team is ready to bring your story to life. We can get your book published and
-                            handle the hard work so you can proudly put your name on the cover.</p>
+                        <h3 class="heading-three">Our Book Publishing Team Is Here To Help You Reach The Finish Line</h3>
+                        <p>Not here to make the noise – only here to make it count. From helping it resonate with your readers to making sure it is launched in the market the right way, we do it all! </p>
                         <div class="website-main-buttons">
                             <a href="#calendary-sec" class="popup-btn">Book A Discovery Call</a>
                             <button class="chat-btn" onclick="<?php echo $locChatClick; ?>">Live Chat!</button>
@@ -186,9 +182,7 @@ $page = 'home';
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <div class="unlock-story-content" data-aos="fade-right" data-aos-duration="1500">
                             <h2 class="heading-three">We’ve Been Around the Block (So You Don’t Have To)</h2>
-                            <p>Publishing a book can feel like trying to find your way through a maze in the dark, but
-                                hey, hey, we’re here to turn the lights on. Our team lives and breathes books, and we’re
-                                obsessed with making sure yours doesn't just sit on a shelf, but actually gets read.</p>
+                            <p>Publishing a book can feel like trying to find your way through a maze in the dark, but hey, hey, we’re here to turn the lights on. Our team lives and breathes books, and we’re obsessed with making sure yours doesn't just sit on a shelf, but actually gets read. Get your Book Published with a team which is:</p>
                             <ul>
                                 <li>Fast but Focused</li>
                                 <li>A Home for Every Story</li>

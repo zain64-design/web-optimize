@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Book Publishers | Publish Your Book with Expert Support</title>
+    <title> Book Publishers for Authors | Edit, Publish & Distribute</title>
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon-icon.png">
-    <meta name="keywords" content="book publishers, publish my book, self publishing, best book publishers for new authors, self publishing a book, book publishing companies, publish a story, publish your book, novella publishers, publishers in usa, get my story published, childrens book publishers">
-    <meta name="description" content="Professional book publishers offering publishing services like editing, cover design, and distribution to help you publish your book.">
+    <meta name="keywords" content="book publishers, publish my book, self publishing, best book publishers for new authors, self publishing a book, book publishing companies, publish a story, publish your book, novella publishers, publishers in USA, get my story published, children's book publishers">
+    <meta name="description" content="Professional book publishers helping authors refine, publish, and distribute books globally. Start your publishing journey with expert support today.">
     <?php  include 'includes/sections/variables-file.php';?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
