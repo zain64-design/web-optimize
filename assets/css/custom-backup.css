@@ -1,3 +1,9 @@
+.footer-links,
+p,
+ul {
+    list-style: none
+}
+
 .service-offer-box p,
 .step-works-box p {
     min-height: 150px;
@@ -21,26 +27,12 @@ p {
     font-size: 16px;
     line-height: 24px
 }
-
+/* purgecss start ignore */
 .contact-main-wrap .contact-main-inner,
 .iti--allow-dropdown {
     width: 100%
 }
-
-a,
-body,
-button,
-h2,
-h3,
-h4,
-h5,
-input,
-p,
-span,
-textarea,
-ul {
-    font-family: "Poppins", sans-serif;
-}
+/* purgecss end ignore */
 
 .offer-box-img img,
 .work-box-head-img img {
@@ -58,11 +50,6 @@ h5 {
     text-transform: capitalize;
     font-weight: 700;
     text-wrap-style: pretty
-}
-
-p,
-ul {
-    list-style: none
 }
 
 a:hover {
@@ -129,14 +116,15 @@ textarea:focus {
     }
 }
 
-.heading-one {
-    font-size: 50px;
-    line-height: 64px
-}
-
 .heading-two {
     font-size: 54px;
     line-height: 60px
+}
+
+.banner-heading-two {
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff
 }
 
 .heading-three {
@@ -150,8 +138,9 @@ textarea:focus {
 }
 
 .heading-five {
-    font-size: 24px;
-    line-height: 30px
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 28px
 }
 
 .modal-body-form .popup-form-list .form-group,
@@ -177,7 +166,6 @@ li {
 .website-main-buttons button.chat-btn,
 .website-main-buttons button.popup-btn {
     font-size: 14px;
-    width: 175px;
     height: 45px;
     padding: 10px;
     margin: 0;
@@ -222,11 +210,6 @@ li {
     margin: 20px 0
 }
 
-.footer-logo-area ul.footer-social-links {
-    display: flex;
-    align-items: center
-}
-
 ul.feedback-reviews-img li:last-child::before {
     content: "21+";
     position: absolute;
@@ -252,11 +235,12 @@ ul.feedback-reviews-img li img {
     height: 35px;
     border-radius: 100%
 }
-
-.customer-feedback-images .slick-arrow,
+/* purgecss start ignore */
+/* .customer-feedback-images .slick-arrow,
 .service-offer-wrap .service-offer-slider .slick-arrow {
     display: none !important
-}
+} */
+/* purgecss end ignore */
 
 .contact-main-form .form-group {
     position: relative;
@@ -274,12 +258,13 @@ ul.feedback-reviews-img li img {
 .modal-body-form .popup-form-list .form-group.form-group-last {
     margin: 0
 }
-
+/* purgecss start ignore */
 label.error-msg {
     color: red;
     font-size: 12px;
     font-weight: 500
 }
+/* purgecss end ignore */
 
 .feedback-content-head .heading-two,
 .portfolio-publish-head .heading-two,
@@ -374,6 +359,7 @@ section.unlock-story-wrap.unlock-story-publishing {
 .footer-bottom .footer-copyright,
 .footer-logo-area .footer-info,
 .footer-logo-area .footer-info ul,
+.formating-img-title,
 .portfolio-tabitem-inner .portfolio-tabitem-img,
 .unlock-story-wrap.unlock-story-publishing .unlock-story-inner .unlock-story-img {
     text-align: center
@@ -444,6 +430,7 @@ section.cta-banner-wrap {
     text-align: center
 }
 
+section.portfolio-formating-cover-illustration,
 section.service-offer-wrap {
     padding: 50px 0
 }
@@ -506,7 +493,7 @@ section.service-offer-wrap {
     margin: 0 auto;
     border-radius: 5px
 }
-
+/* purgecss start ignore */
 .award-brands-slider .slick-arrow {
     top: 25%;
     position: absolute;
@@ -541,6 +528,7 @@ section.service-offer-wrap {
     color: #fff;
     right: 10px
 }
+/* purgecss end ignore */
 
 section.portfolio-publish-wrap {
     background-image: url(../../assets/images/portfolio-published-bg.webp);
@@ -761,7 +749,7 @@ section.customer-feedback-wrap {
 .customer-feedback-slider {
     position: unset !important
 }
-
+/* purgecss start ignore */
 .customer-feedback-slider .slick-arrow {
     position: absolute;
     top: auto;
@@ -808,7 +796,7 @@ section.customer-feedback-wrap {
 .customer-feedback-slider .slick-prev::before {
     content: '\f060'
 }
-
+/* purgecss end ignore */
 .feedback-slider-box .feedback-box-head {
     display: flex;
     margin: 0 0 30px
@@ -878,7 +866,7 @@ section.customer-feedback-wrap {
 }
 
 .customer-feedback-reviews span {
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 700;
     color: #8340ee;
     font-size: 16px;
@@ -976,7 +964,7 @@ section.faqs-sec-wrap {
 }
 
 .faqs-sec-item .accordion-item .accordion-header button.accordion-button {
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 600;
     background: 0 0;
     color: #161a1d;
@@ -1014,9 +1002,9 @@ section.faqs-sec-wrap {
 }
 
 .faqs-sec-item .accordion-item .accordion-collapse .accordion-body {
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     background: 0 0;
-    color: #888;
+    color: #292929;
     font-size: 18px;
     line-height: 24px;
     margin: 0;
@@ -1024,78 +1012,84 @@ section.faqs-sec-wrap {
     border-radius: 0
 }
 
-.footer-logo-area .footer-logo {
-    width: 200px
-}
-
-footer.footer-main-sec {
-    background-color: #181818;
-    position: relative;
-    z-index: 10
-}
-
-.footer-main-sec .footer-middle {
-    padding: 20px 0;
-    border-bottom: 1px solid #f3f3f344
-}
-
-.footer-middle .footer-logo-area {
-    display: flex;
-    justify-content: space-between;
-    align-items: center
-}
-
-.footer-logo-area .footer-info ul li a {
-    color: #fff;
-    font-size: 16px;
-    line-height: 22px;
-    margin: 0;
-    display: block;
-    transition: .3s ease-in-out
-}
-
 ul.footer-social-links {
     gap: 10px
 }
 
-.footer-disclaimer-area p b,
-.footer-logo-area .footer-info ul li a:hover,
-ul.footer-social-links li a:hover {
-    color: #c2f15e
+.formating-sliders button.owl-prev {
+    position: absolute;
+    left: -30px;
+    top: 210px
 }
 
-ul.footer-social-links li a {
-    color: #fff;
-    font-size: 22px;
-    display: block;
-    transition: .3s ease-in-out
+.book-cover-sliders button.owl-next:hover,
+.fbook-cover-sliders button.owl-prev:hover,
+.formating-sliders button.owl-next:hover,
+.formating-sliders button.owl-prev:hover,
+.illustrations-sliders button.owl-next:hover,
+.illustrations-sliders button.owl-prev:hover {
+    background: #86979100 !important;
+    color: #c2f15e !important
 }
 
-.footer-disclaimer-area {
-    margin: 20px 0 0
+.formating-sliders button.owl-next {
+    position: absolute;
+    right: -30px;
+    top: 210px
 }
 
-.footer-disclaimer-area p {
-    color: #868686;
-    font-size: 12px;
-    line-height: 18px
+.book-cover-sliders button span,
+.formating-sliders button span,
+.illustrations-sliders button span {
+    font-size: 50px
 }
 
-.footer-main-sec .footer-bottom {
-    padding: 10px 0
+.book-cover-sliders button.owl-prev {
+    position: absolute;
+    left: -30px;
+    top: 100px
 }
 
-.footer-copyright p {
-    color: #868686;
-    font-size: 16px;
-    line-height: 22px;
-    margin: 0
+.book-cover-sliders button.owl-next {
+    position: absolute;
+    right: -30px;
+    top: 100px
+}
+
+.illustrations-sliders button.owl-prev {
+    position: absolute;
+    left: -30px;
+    top: 140px
+}
+
+.illustrations-sliders button.owl-next {
+    position: absolute;
+    right: -30px;
+    top: 140px
 }
 
 @media only screen and (min-width:1200px) and (max-width:1399px) {
+
+    .banner-heading-two,
     .heading-one {
-        font-size: 45px;
+        font-size: 25px !important
+    }
+
+    .heading-one {
         line-height: 55px
+    }
+
+    .banner-bulid-points {
+        padding-left: 30px
+    }
+
+    .banner-bulid-points ul li,
+    .banner-main-content p {
+        font-size: 14px
+    }
+
+    .logo-two img {
+        height: 45px
     }
 
     .heading-two {
@@ -1115,7 +1109,8 @@ ul.footer-social-links li a {
     }
 
     .heading-five {
-        font-size: 20px;
+        font-size: 24px;
+        font-weight: 700;
         line-height: 26px
     }
 
@@ -1313,6 +1308,7 @@ ul.footer-social-links li a {
     section.unlock-story-wrap.unlock-story-publishing .unlock-story-content ul {
         justify-content: left
     }
+    /* purgecss start ignore */
 
     .customer-feedback-slider .slick-next,
     .customer-feedback-slider .slick-prev {
@@ -1323,6 +1319,8 @@ ul.footer-social-links li a {
     .customer-feedback-slider .slick-prev {
         left: 0
     }
+
+    /* purgecss end ignore */
 
     .portfolio-publish-buttons ul.nav-pills li.nav-item button.nav-link {
         font-size: 14px;
@@ -1373,7 +1371,6 @@ ul.footer-social-links li a {
 }
 
 @media only screen and (min-width:576px) and (max-width:767px) {
-
     .heading-one {
         font-size: 35px;
         line-height: 45px
@@ -1503,6 +1500,7 @@ ul.footer-social-links li a {
     section.unlock-story-wrap.unlock-story-publishing .unlock-story-content ul {
         justify-content: left
     }
+    /* purgecss start ignore */
 
     .customer-feedback-slider .slick-next,
     .customer-feedback-slider .slick-prev {
@@ -1513,6 +1511,7 @@ ul.footer-social-links li a {
     .customer-feedback-slider .slick-prev {
         left: 0
     }
+    /* purgecss end ignore */
 
     .counter-satisfy-inner .counter-satisfy-box {
         margin: 0 5px 10px;
@@ -1559,11 +1558,6 @@ ul.footer-social-links li a {
     .feedback-slider-box .feedback-box-head {
         justify-content: center;
         align-items: center
-    }
-
-    .footer-logo-area .footer-info,
-    .footer-logo-area .footer-logo {
-        margin: 0 0 10px
     }
 
     .contact-main-form .form-group input {
@@ -1729,6 +1723,8 @@ ul.footer-social-links li a {
         line-height: 34px
     }
 
+    /* purgecss start ignore */
+
     .customer-feedback-slider .slick-next,
     .customer-feedback-slider .slick-prev {
         right: 0;
@@ -1738,6 +1734,8 @@ ul.footer-social-links li a {
     .customer-feedback-slider .slick-prev {
         left: 0
     }
+
+    /* purgecss end ignore */
 
     .feedback-box-head .feedback-slider-thumb {
         margin: 0 10px 10px
@@ -1804,11 +1802,6 @@ ul.footer-social-links li a {
         text-align: center
     }
 
-    .footer-logo-area .footer-info,
-    .footer-logo-area .footer-logo {
-        margin: 0 0 10px
-    }
-
     .contact-main-form .form-group input {
         font-size: 16px;
         padding: 10px 5px
@@ -1857,7 +1850,7 @@ section.calendly_Intergrate span {
     display: block;
     color: #8340ee;
     font-size: 33px;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 700;
     margin: 39px 0 0
 }
@@ -1879,7 +1872,7 @@ section.calendly_Intergrate ul li {
 }
 
 section.calendly_Intergrate img {
-    max-width: 400px;
+    max-width: 250px;
     width: 100%;
     margin: 0 0 20px
 }
@@ -1961,7 +1954,8 @@ section.calendly_Intergrate::after {
     border-bottom: none
 }
 
-#staticBackdrop .modal-body {
+#staticBackdrop .modal-body,
+.footer-links {
     padding: 0
 }
 
@@ -2048,6 +2042,121 @@ section.calendly_Intergrate::after {
 .modal.show {
     padding-right: 0 !important
 }
+
+.book-formating h2 {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center
+}
+
+.book-cover h2,
+.illustrations h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center
+}
+
+.book-cover,
+.illustrations {
+    padding-top: 50px
+}
+/* purgecss start ignore */
+.slick-slider .slick-prev::before, .slick-slider .slick-next::after{
+    font-family: 'Font Awesome 7 Free';
+    font-size: 18px;
+    font-weight: 600;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+.sec-brands {
+    padding: 50px 0;
+    background: #222;
+}
+.cm-cont:not(.slick-initialized) {
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+
+.cm-cont.slick-initialized {
+    visibility: visible;
+    height: auto;
+    animation: fadeIn 0.8s ease-in;
+}
+.cm-cont .item {
+    margin-inline: 5px;
+}
+.cm-cont .slick-slide img {
+    margin: 0 auto;
+}
+
+.logo-slider .slick-slide img {
+        height: 50px;
+    object-fit: contain;
+    max-width: 100%;
+}
+.cm-cont .slick-prev, .cm-cont .slick-next {
+    position: absolute;
+    top: calc(100% - 55%);
+    right: auto;
+    left: -10px;
+    z-index: 10;
+    font-size: 0;
+    border: none;
+    background: #8340ee;
+    width: 30px;
+    height: 30px;
+    align-content: center;
+    border-radius: 50%;
+    text-align: center;
+    transition: .3s ease-in-out
+}
+.cm-cont .slick-next {
+    left: auto;
+    right: -10px;
+}
+.cm-cont .slick-prev::before, .cm-cont .slick-next::after {
+    content: '\f104';
+    color: #fff;
+    font-size: 14px;
+}
+.cm-cont .slick-next::after {
+    content: '\f054';
+}
+.slick-dotted .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 20px 0 0
+}
+.slick-dotted .slick-dots li button {
+    background: #c2f15e;
+    border: 2px solid #c2f15e;
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    transition: .3s ease-in-out;
+    font-size: 0;
+}
+
+.slick-dotted .slick-dots li.slick-active button {
+    background: #000;
+    border: 2px solid #000;
+    padding: 0;
+    transition: .3s ease-in-out;
+    font-size: 0;
+    width: 16px;
+}
+/* purgecss end ignore */
 
 @media only screen and (min-width:768px) and (max-width:991px) {
     #staticBackdrop .modal-content::before {
@@ -2154,5 +2263,232 @@ section.calendly_Intergrate::after {
 
     .modal-body-form .popup-form-list .form-group textarea::placeholder {
         font-size: 16px
+    }
+}
+
+.footer-bg {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding-top: 60px;
+    position: relative
+}
+
+.email-text,
+.footer-links li a:hover,
+.main-heading {
+    color: #bfff00
+}
+
+.main-heading {
+    font-size: 100px;
+    font-weight: 800
+}
+
+.sub-text {
+    font-size: 1.1rem;
+    max-width: 350px
+}
+
+.email-text {
+    font-size: 30px;
+    line-height: 90px;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.social-pills span {
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    margin: 5px 3px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s ease-in-out
+}
+
+.social-pills span:hover {
+    background: #bfff00;
+    color: #000
+}
+
+.column-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px
+}
+
+.footer-links li {
+    margin-bottom: 10px
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: .9;
+    transition: .4s ease-in-out
+}
+
+.border-start-gray {
+    border-left: 1px solid rgba(255, 255, 255, .2)
+}
+
+.underline-white {
+    width: 60%;
+    border-bottom: 1px solid #fff
+}
+
+.small-para {
+    line-height: 1.6
+}
+
+.copyright-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #b3b3b3;
+    text-align: center
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px
+}
+
+.giant-curved-box {
+    background-color: #bfff00;
+    width: 95%;
+    padding: 50px;
+    border-radius: 180px 180px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.brand-name {
+    color: #1a1a1a;
+    font-weight: 800;
+    font-size: 3.5rem
+}
+
+.brand-circle {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #1a1a1a;
+    border-radius: 50%;
+    position: relative
+}
+
+.brand-circle::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #1a1a1a;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px
+}
+
+@media (max-width:991px) {
+    .border-start-gray {
+        border-left: none
+    }
+
+    .main-heading {
+        font-size: 2.5rem
+    }
+
+    .giant-curved-box {
+        border-radius: 80px 80px 0 0;
+        padding: 20px 40px
+    }
+
+    .brand-name {
+        font-size: 1.8rem
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:519px) {
+    .banner-main-sec {
+        padding: 160px 0 50px !important
+    }
+
+    .banner-heading-two,
+    .banner-main-content .heading-one {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .banner-main-content p {
+        color: #fff;
+        text-align: left;
+        font-size: 14px
+    }
+
+    .banner-bulid-points ul li {
+        font-size: 14px;
+        color: #fff;
+        padding-top: 5px
+    }
+
+    .logo-two img {
+        height: 32px
+    }
+
+    .review-line li,
+    .review-line p {
+        font-size: 14px;
+
+    }
+
+    .book-cover h2,
+    .book-formating h2,
+    .illustrations h2 {
+        font-size: 25px;
+        padding-bottom: 10px
+    }
+
+    section.calendly_Intergrate img {
+        max-width: 250px
+    }
+
+    section.calendly_Intergrate h3 {
+        font-size: 30px;
+        font-weight: 800
+    }
+
+    .email-text {
+        font-size: 18px
+    }
+
+    .sub-text {
+        font-size: 14px
+    }
+
+    .mb-5 {
+        margin-bottom: -1rem !important
+    }
+
+    .py-5 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important
+    }
+
+    .copyright-text {
+        font-size: 12px; padding: 5px;
+    }
+
+    header nav.navbar .website-main-buttons a.call-btn {
+        font-size: 12px
+    }
+
+    .website-main-buttons a.popup-btn {
+        font-size: 12px;
+        height: 45px;
+        padding: 5px
     }
 }
