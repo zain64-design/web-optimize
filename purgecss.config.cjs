@@ -12,7 +12,7 @@ module.exports = {
   ],
 
   // this css will be processed by PurgeCSS to remove unused classes from it
-  css: ["./assets/css/bootstrap.min.css"],
+  css: ["./assets/css/custom.css","./assets/css/bootstrap.min.css"],
 
   // Output folder
   output: "./assets/css/",
